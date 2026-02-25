@@ -3,7 +3,7 @@ name: Daily Auto Commit
 on:
   schedule:
     # Runs daily at 10:30 UTC (use fixed numbers — no *)
-    - cron: "30 10 24 2 *"
+    - cron: "30 10 * * *"
 
   workflow_dispatch:
 
